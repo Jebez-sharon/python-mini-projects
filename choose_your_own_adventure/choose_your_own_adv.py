@@ -1,17 +1,3 @@
-# def arm_strong(num):
-#     total_number_digits = len(str(num))
-#     armstrong_no = 0
-#     n = num
-
-#     while n > 0:
-#         last_digit = n % 10
-#         armstrong_no += last_digit ** total_number_digits
-#         n = n // 10
-#     return num == armstrong_no
-
-# print(arm_strong(153))
-
-
 name = input("Type your name: ")
 print("Welcome ", name, "to this adventure!")
 
